@@ -1,0 +1,25 @@
+---
+- name: Download Dynatrace OneAgent installer
+  include_tasks: tasks/download.yml
+  when: oneagent_local_installer|length == 0
+
+- name: Transfer Dynatrace OneAgent installer
+  include_tasks: tasks/transfer-{{ oneagent_system_family }}.yml
+  when: oneagent_local_installer|length > 0
+
+- name: Verify Dynatrace OneAgent installer signature
+  include_tasks: tasks/signature-{{ oneagent_system_family }}.yml
+  when: oneagent_system_is_unix and oneagent_verify_signature
+
+- name: Gather installers info
+  include_tasks: tasks/pre-install-{{ oneagent_system_family }}.yml
+
+- name: Check installers info
+  include_tasks: tasks/install-check.yml
+
+- name: Install Dynatrace OneAgent
+  include_tasks: tasks/install-{{ oneagent_system_family }}.yml
+  when: _oneagent_is_installation_possible
+
+- name: Post-installation steps
+  include_tasks: tasks/post-install-{{ oneagent_system_family }}.yml

@@ -1,0 +1,17 @@
+---
+- name: Load variables based on OS
+  include_vars: vars/{{ oneagent_system_name }}.yml
+
+- name: Load messages
+  include_vars: vars/messages.yml
+
+- name: Check passed parameters
+  include_tasks: tasks/params.yml
+
+- name: Install Dynatrace OneAgent
+  include_tasks: tasks/install.yml
+  when: oneagent_is_operation_installation
+
+- name: Uninstall Dynatrace OneAgent
+  include_tasks: tasks/uninstall-{{ oneagent_system_family }}.yml
+  when: not oneagent_is_operation_installation

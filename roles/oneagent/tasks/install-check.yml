@@ -1,0 +1,33 @@
+---
+- name: Compare versions of installed OneAgent
+        and uploaded installer for installation
+  set_fact:
+    _oneagent_is_installation_possible:
+      "{{ _oneagent_installed_agent_version.stdout
+      | default('') < _oneagent_new_agent_version.stdout }}"
+
+- name: Check if installation is possible
+  debug:
+    msg: "{{ oneagent_version_lower_than_installed }}"
+  when: not _oneagent_is_installation_possible
+
+- name: Validate minimal version of installer
+  fail:
+    msg: "{{ oneagent_version_lower_than_minimal | format(_oneagent_new_agent_version,
+      oneagent_minimal_install_version) }}"
+  when: _oneagent_new_agent_version is defined and
+    _oneagent_new_agent_version.stdout < oneagent_minimal_install_version
+
+- name: Combine installation parameters
+  set_fact:
+    _oneagent_all_install_args: "{{ oneagent_passed_install_args +
+      oneagent_additional_reporting_params }}"
+  no_log: true
+  when: _oneagent_new_agent_version.stdout >= oneagent_minimal_reporting_version
+
+- name: Set installation parameters
+  set_fact:
+    _oneagent_install_params: "\"{{ item }}\""
+  with_items: "{{ _oneagent_all_install_args }}"
+  register: _oneagent_install_param
+  no_log: true
