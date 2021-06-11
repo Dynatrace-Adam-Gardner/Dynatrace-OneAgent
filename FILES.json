@@ -1,0 +1,313 @@
+{
+ "files": [
+  {
+   "name": ".",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "CHANGELOG.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "9b786445779c936c2e42f290b105acac745c362c10ea4c1b53402ec40641f4ee",
+   "format": 1
+  },
+  {
+   "name": "roles",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "033e8db749ecfc9b1dd967e870ede24497e5cf3f3b8fdbdb036b5922fa09df07",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/params-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "33d59925faac7c42c26fbbadf85ee874c3066ec3c1ca5ed230f80c2df5355f65",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/pre-install-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0340c17a0164a8b386c837479fb49a36389742440b118bb175fd5b3e023ce1ba",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/download-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "10676938f0c55edfe268627b8ea0c23cf069bf550946be7682114f765e5856fd",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/params.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "cdea8d34aed0f0eb578c99be0c7a67fa1e1986b6f6b380dc92f88894cc14ae4a",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/transfer-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "f1a9ec93d35c28e93ac1b11fd9164718ab1f53ddaa46a0fdb6a17c99f86969d8",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/uninstall-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3acdc3f958a6b3d22dfa58ad42b4401c8414ef27a75ec6c198b69bcead56744e",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/download-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "17be8f8f35d056d8aa6a9b11853e051fa0999fcf09a4c2b50918cd3f95926d98",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/download.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "4d80ee4c222e55f96405a8887f6faff4f8f410a51fbbdc7aa66336c7656dd3e3",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/post-install-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "83a07bc51800ecfe593b5c9d5aa9f00e30a475ec73ec5a8fad1d9bc8d23558ec",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/install-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "bf8bd89f80dfc849861e2424b5120ad27e5bf1713a548d1ff343f2db6aca0a19",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/params-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "5d7b58308cd30ea13b2934980df2e9bd0c26977786db3f50b999b7268de7ea75",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/signature-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "b6a26685864afc61cfbde0ad2f4ee4eece05147cee91f302df1b1c58116f827b",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/install-check.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8ecec136e6d09d055e9871ae2b99309fe24d1c59d4f2bd9524f8a2ad466be35d",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/uninstall-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "03a058511ea57e791869a2c3301182875ee49441070ade56fd523c5b2517a2c9",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/pre-install-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2650926839e5dbbc712e9cc431cef73ad4e1fb0eab5b9983819b3581a6a909b7",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/post-install-unix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "3d7dc354ac2cdd2d50be643bea8fac2b400c440104029aea98523a484533cbba",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/install-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "097d06b559cfcd46eaed6f009cc7d0d9b3e84ea3edf772f662fb53a0391548e0",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/transfer-windows.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "519dc10f850932b5ffb5280e39723e01d9ffe4a9aa3699a570822a2720e6d126",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/tasks/install.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "12332988004da43a8d1fff71c65f338222e28df8838f6e01c4f24597913fdeab",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/files",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/files/dt-root.cert.pem",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "0dae5e48538bd2a782b282dc37dbad70affa0824555e51f42cd5eb48fdca32ca",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "13289c2b6de8b07db3d65944775a885cb316401e48417dae9110d771312f9643",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars/linux.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "2a56bc5344d85d0529df2d8ae5f5e3d3ed04617f4103a4c5eea8d1f9c1b39916",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars/aix.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "187bd226f72219cc80176496d4883f47250f0459d9a6a63516f57affdb6aebf7",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars/messages.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fc20309c71136f41392007fc55697cfaf7d57da7d9834d2cfaa3774c9438a4fb",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/vars/win32nt.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "c25d3901939a8fc3e3e124f1ebe9d3828be7840f2170963f26dc1c8012d80dba",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/defaults",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/defaults/main.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "fdf464295a66f07b99818b4f09fb917ae2955073813c0a6383e03f4c10521947",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "6ac489efebdd1771283fc242867ffc2b781dcf7454d41365d66379610516a9e8",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/local_installer",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/local_installer/inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "417bc1f265d09b96b79d389eb13848bf16d497754df612b080e9f6e4afe12b2d",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/local_installer/local_installer.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "7b81525dae09f4a46625d589be8db037e404d4a0497bf21a302ab5bdfa59c028",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/advanced_config",
+   "ftype": "dir",
+   "chksum_type": null,
+   "chksum_sha256": null,
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/advanced_config/advanced_config.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "8bf6742470699cd45f35b9113a75e660263a8a7a1cded7f2548e3f63441548b3",
+   "format": 1
+  },
+  {
+   "name": "roles/oneagent/examples/advanced_config/inventory.yml",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "a9f01aafdbef96a848fc9c22723954dd2d0ee2a850eddfc2fb3d47403976f8ba",
+   "format": 1
+  },
+  {
+   "name": "README.md",
+   "ftype": "file",
+   "chksum_type": "sha256",
+   "chksum_sha256": "67a088cba78993fdc643f17533d24c6747c449e76a6b775e3209a1b54833a2a3",
+   "format": 1
+  }
+ ],
+ "format": 1
+}
